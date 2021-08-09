@@ -23,7 +23,7 @@ public class SYAlamofire {
     
     var reachability: NetworkReachabilityManager?
     /// 网络状态
-    var networkStatus: SYReachabilityStatus = .unknown
+    public var networkStatus: SYReachabilityStatus = .unknown
     /// 全局headers
     private var globalHeaders: HTTPHeaders? = []
     /// 超时时间
